@@ -10,3 +10,46 @@
 @import "../../node_modules/bootstrap/scss/bootstrap";
 
 // Import partials here
+.nav-link:hover {
+  text-decoration: underline;
+}
+.jumbotron {
+  background: #ffffff url("../img/pirate-ship.jpg") no-repeat fixed;
+  background-size: 100% 100%;
+  color: white;
+  min-height: 400px;
+}
+.h6 {
+  padding: 10px 100px 2px 0px;
+  margin: 0
+}
+.organization {
+  padding: 0px 100px 0px 0px;
+}
+.date {
+  font-size: 20px;
+}
+.display-4 {
+  font-family: 'Liu Jian Mao Cao', cursive;
+  font-size: 35px;
+}
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: gray;
+  color: #393836;
+  text-align: center;
+  padding-top: 10px;
+}
+.container {
+  margin-bottom: 50px;
+}
+.mb-4 {
+  font-size: 35px;
+}
+.vert {
+  padding: 30px 10px;
+  border-style: solid;
+}
